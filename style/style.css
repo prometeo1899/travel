@@ -1,0 +1,109 @@
+body{
+    background-image: url(327retre81.jpg);
+    background-size: 100%;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 10rem;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+
+.container .section1{
+    background-color: rgba(255, 255, 255, 0.349);
+    width: 400px;
+    height: 400px;
+    margin-top: -5px;
+    position: relative;
+    transform: translateX(200px);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: 1s;
+    box-shadow: 0 0px 10px  10px rgba(0, 20, 20, 0.397);
+}
+
+.container:hover .section1{
+    transform: translateX(0);
+}
+
+.welc{
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.welc h1{
+    font-size: 50px;
+}
+
+
+
+
+
+  
+   
+
+    
+.container .image img{
+    width: 398px;
+    height: 398px;
+    border-radius: 15px;
+    border: 1.5px solid white;
+    transform: translateX(-200px);
+    position: relative;
+    box-shadow: 0 0px 10px  10px rgba(0, 20, 20, 0.397);
+    transition: 1s;
+}
+
+.container:hover .image img{
+    transform: translateX(0);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 30px;
+    font-weight: bold;
+}
+.travel{
+    position: absolute;
+    top: 100px;
+    left: 195px;
+    width: 260px;
+}
+label input{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border-bottom: 0.5px solid black;
+}
+label input:focus{
+    background-color: rgba(240, 248, 255, 0.397);
+}
+label input:hover{
+    background-color: rgba(240, 248, 255, 0.397);
+}
+
+.btn{
+    background-color: black;
+    width: 25%;
+    height: 30px;
+    align-self: flex-end;
+    border-radius: 10px;
+    color: white;
+
+}
+ .btn:hover {
+    opacity: 0.75;
+    cursor: pointer;
+ }
