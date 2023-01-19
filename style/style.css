@@ -116,6 +116,8 @@ label input:hover{
     }
     .container:hover .section1{
         transform: translateY(0px);
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
       
      
     }
@@ -126,8 +128,12 @@ label input:hover{
     }
     .container:hover  .image img{
         transform: translateY(0px);
-       
+        height: 250px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    
       
 
     }
- }
+}
+ 
