@@ -1,6 +1,7 @@
 body{
-    background-image: url(327retre81.jpg);
-    background-size: 100%;
+    background: url(327retre81.jpg) center center no-repeat fixed;
+    background-size: cover;
+    
 }
 .container{
     display: flex;
@@ -40,14 +41,6 @@ body{
     font-size: 50px;
 }
 
-
-
-
-
-  
-   
-
-    
 .container .image img{
     width: 398px;
     height: 398px;
@@ -74,7 +67,7 @@ form{
 .travel{
     position: absolute;
     top: 100px;
-    left: 195px;
+    left: 180px;
     width: 260px;
 }
 label input{
@@ -106,4 +99,35 @@ label input:hover{
  .btn:hover {
     opacity: 0.75;
     cursor: pointer;
+ }
+ @media all and (max-width:800px){
+
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        margin-top: 0;
+    }
+    .container .section1{
+        transform: translateY(200px);
+        transition: 1s;
+    }
+    .container:hover .section1{
+        transform: translateY(0px);
+      
+     
+    }
+    .container .image img{
+        transform: translateY(-200px);
+      
+        transition: 1s;
+    }
+    .container:hover  .image img{
+        transform: translateY(0px);
+       
+      
+
+    }
  }
